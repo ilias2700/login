@@ -1,0 +1,290 @@
+.sign-in {
+  height: 100vh;
+  width: 100%;
+}
+.sign-in .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.sign-in .container .left-part {
+  height: 100%;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #e9e9ec;
+}
+@media (max-width: 767px) {
+  .sign-in .container .left-part {
+    display: none;
+ }
+}
+.sign-in .container .left-part .header {
+  height: 10%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+}
+.sign-in .container .left-part .header .logo {
+  padding-left: 2rem;
+  width: 80px;
+}
+.sign-in .container .left-part .content {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign-in .container .left-part .legend {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sign-in .container .right-part {
+  height: 100%;
+  width: 35%;
+  display: flex;
+  background-color: #f3f3f5;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .sign-in .container .right-part {
+    width: 100%;
+ }
+}
+.sign-in .container .right-part .right-part-inner {
+  height: 90%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sign-in .container .right-part .right-part-inner .logo {
+  display: none;
+  width: 80px;
+  margin: 0 auto;
+  margin-bottom: 1.25rem;
+}
+@media (max-width: 767px) {
+  .sign-in .container .right-part .right-part-inner .logo {
+    display: inline-block;
+ }
+}
+.sign-in .container .right-part .right-part-inner form .input-container {
+  margin-bottom: 1.75rem;
+}
+@media (max-width: 1024px) {
+  .sign-in .container .right-part .right-part-inner form .input-container {
+    margin-bottom: 1.5rem;
+ }
+}
+@media (max-width: 768px) {
+  .sign-in .container .right-part .right-part-inner form .input-container {
+    margin-bottom: 1.35rem;
+ }
+}
+@media (max-width: 605px) {
+  .sign-in .container .right-part .right-part-inner form .input-container {
+    margin-bottom: 1.25rem;
+ }
+}
+@media (max-width: 425px) {
+  .sign-in .container .right-part .right-part-inner form .input-container {
+    margin-bottom: 1rem;
+ }
+}
+.sign-in .container .right-part .right-part-inner form .input-container .label {
+  margin-bottom: 0.25rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1024px) {
+  .sign-in .container .right-part .right-part-inner form .input-container .label {
+    font-size: 1rem;
+ }
+}
+@media (max-width: 768px) {
+  .sign-in .container .right-part .right-part-inner form .input-container .label {
+    font-size: 0.75rem;
+ }
+}
+@media (max-width: 767px) {
+  .sign-in .container .right-part .right-part-inner form .input-container .label {
+    font-size: 1.25rem;
+ }
+}
+@media (max-width: 605px) {
+  .sign-in .container .right-part .right-part-inner form .input-container .label {
+    font-size: 1rem;
+ }
+}
+@media (max-width: 425px) {
+  .sign-in .container .right-part .right-part-inner form .input-container .label {
+    font-size: 1rem;
+ }
+}
+.sign-in .container .right-part .right-part-inner form .input-container .label .forgot-password {
+  color: #111d5e;
+}
+.sign-in .container .right-part .right-part-inner form .input-container .label .forgot-password:hover {
+  cursor: pointer;
+  color: #0c164f;
+}
+.sign-in .container .right-part .right-part-inner form .input-container .input {
+  width: 100%;
+  padding: 0.75rem 0.5rem;
+  margin-top: 0.5rem;
+  outline: none;
+  border-radius: 0.25rem;
+  background-color: #fefeff;
+  border: 2px solid rgba(36, 36, 36, 0.5);
+  font-size: 1rem;
+}
+.sign-in .container .right-part .right-part-inner form .input-container .input:focus {
+  background-color: #dfe3e8;
+}
+@media (max-width: 1024px) {
+  .sign-in .container .right-part .right-part-inner form .input-container .input {
+    font-size: 0.875rem;
+ }
+}
+@media (max-width: 768px) {
+  .sign-in .container .right-part .right-part-inner form .input-container .input {
+    font-size: 0.75rem;
+ }
+}
+@media (max-width: 767px) {
+  .sign-in .container .right-part .right-part-inner form .input-container .input {
+    font-size: 1rem;
+ }
+}
+@media (max-width: 605px) {
+  .sign-in .container .right-part .right-part-inner form .input-container .input {
+    font-size: 0.875rem;
+ }
+}
+@media (max-width: 425px) {
+  .sign-in .container .right-part .right-part-inner form .input-container .input {
+    font-size: 0.75rem;
+ }
+}
+.sign-in .container .right-part .right-part-inner form .input-container .error {
+  color: red;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+@media (max-width: 1024px) {
+  .sign-in .container .right-part .right-part-inner form .input-container .error {
+    font-size: 0.575rem;
+ }
+}
+@media (max-width: 768px) {
+  .sign-in .container .right-part .right-part-inner form .input-container .error {
+    font-size: 0.75rem;
+ }
+}
+@media (max-width: 605px) {
+  .sign-in .container .right-part .right-part-inner form .input-container .error {
+    font-size: 0.575rem;
+ }
+}
+@media (max-width: 425px) {
+  .sign-in .container .right-part .right-part-inner form .input-container .error {
+    font-size: 0.35rem;
+ }
+}
+.sign-in .container .right-part .right-part-inner form .button {
+  width: 100%;
+  position: relative;
+}
+.sign-in .container .right-part .right-part-inner form .button .submit-button {
+  width: 100%;
+  height: 100%;
+  padding: 0.9rem 0rem;
+  margin: 0.5rem 0;
+  color: white;
+  background-color: #111d5e;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: 0.1s ease-in-out;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+}
+@media (max-width: 1024px) {
+  .sign-in .container .right-part .right-part-inner form .button .submit-button {
+    font-size: 0.875rem;
+    margin: 0.4rem 0;
+ }
+}
+@media (max-width: 768px) {
+  .sign-in .container .right-part .right-part-inner form .button .submit-button {
+    font-size: 1rem;
+    margin: 0.3rem 0;
+ }
+}
+@media (max-width: 605px) {
+  .sign-in .container .right-part .right-part-inner form .button .submit-button {
+    font-size: 0.875rem;
+    margin: 0.15rem 0;
+ }
+}
+@media (max-width: 425px) {
+  .sign-in .container .right-part .right-part-inner form .button .submit-button {
+    font-size: 0.75rem;
+    margin: 0;
+ }
+}
+.sign-in .container .right-part .right-part-inner form .button .submit-button:hover {
+  background-color: #0c164f;
+}
+.sign-in .container .right-part .right-part-inner form .button .overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign-in .container .right-part .right-part-inner form .button .overlay .spinner {
+  border: 0.25rem solid #f3f3f3;
+ /* Light grey */
+  border-top: 0.25rem solid #ffa62b;
+ /* Blue */
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  animation: spin 1s linear infinite;
+  animation-name: การเคลื่อนไหวที่-1;
+}
+@keyframes การเคลื่อนไหวที่-1 {
+  from {
+    transform: rotate(0deg);
+ }
+  to {
+    transform: rotate(360deg);
+ }
+}
